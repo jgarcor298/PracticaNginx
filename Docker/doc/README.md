@@ -12,22 +12,38 @@ Lo primero que he hecho ha sido comprobar que tengo instalado Docker.
 
 En la imagen se ve a la izquierda la estructura de carpetas, y como en la carpeta html esta clonado el repositorio de la práctica, además se ve el contenido de el fichero de configuración nginx.conf
 
-![](assets/20251125_142438_image.png)
+**IMPORTANTE:** A partir de aqui he seguido haciendo la práctica desde mi ordenador (las capturas anteriores eran del ordenador de clase). Por eso se pueden ver distintas las capturas.
+
+![](assets/20251125_160733_image.png)
 
 ## 3. Crear y ejecutar el contenedor Docker
 
-**IMPORTANTE:** A partir de aqui he seguido haciendo la práctica desde mi ordenador (las capturas anteriores eran del ordenador de clase). Por eso se pueden ver distintas las capturas.
-
 Para el contenedor Docker he decidido hacerlo con Compose, por lo cual he tenido que crear un fichero docker-compose.yml, con la siguiente configuración.
 
-![](assets/20251125_155915_image.png)
-
+![](assets/20251125_160804_image.png)
 
 Ahora lanzamos el contenedor para comprobar que la configuración es correcta.
 
 ![](assets/20251125_154327_image.png)
 
-
 Y en el navegador comprobamos que el servidor funciona
 
 ![](assets/20251125_160035_image.png)
+
+### 3.1 Editar archivo /etc/hosts
+
+![](assets/20251125_161130_image.png)
+
+Una vez añadido el nombre del dominio y al haber movido la carpeta html con el repositorio, me aparece el index.html del repositorio que hemos descargado.
+
+![](assets/20251125_161348_image.png)
+
+
+### 3.2 Comprobar registros del servidor
+
+![](assets/20251125_161544_image.png)
+
+
+### 3.3 Detener y eliminar contenedor
+
+![](assets/20251125_161647_image.png)
