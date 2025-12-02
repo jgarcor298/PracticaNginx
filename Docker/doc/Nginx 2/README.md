@@ -20,7 +20,7 @@ Al crear la clave me ha devuelto un warning por que el docker que se ha ejecutad
 
 He añadido la ruta del fichero que va tener la clave del servidor, en el nginx.conf
 
-![](assets/20251202_161028_image.png)
+![](assets/20251202_162440_image.png)
 
 
 Y en el docker-compose.yml he indicado que se copie el fichero al lanzar el contenedor
@@ -29,3 +29,12 @@ Y en el docker-compose.yml he indicado que se copie el fichero al lanzar el cont
 
 
 ## 1.4 Probar la nueva configuración
+
+He levantado el contenedor docker y he comprobado que al acceder al servidor me pide autenticación
+
+![](assets/20251202_162548_image.png)
+
+Y este es el mensaje que me muestra al no autenticarme
+
+
+![](assets/20251202_162630_image.png)
