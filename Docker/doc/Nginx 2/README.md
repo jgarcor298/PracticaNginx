@@ -17,3 +17,15 @@ Al crear la clave me ha devuelto un warning por que el docker que se ha ejecutad
 
 
 ## 1.3 Configurar Nginx.conf
+
+He añadido la ruta del fichero que va tener la clave del servidor, en el nginx.conf
+
+![](assets/20251202_161028_image.png)
+
+
+Y en el docker-compose.yml he indicado que se copie el fichero al lanzar el contenedor
+
+![](assets/20251202_161500_image.png)
+
+
+## 1.4 Probar la nueva configuración
