@@ -51,3 +51,19 @@ En la primera linea podemos ver que dice que el user "jorg" no lo ha encontrado,
 
 
 ### 2.2 T.2
+
+He hecho este cambio en mi fichero nginx.conf para que solo pida la autenticación en la página contact.html
+
+![](assets/20251203_190049_image.png)
+
+
+Despues he ejecutado el comando $ docker compose restart
+
+Y he probado como no pide autenticación al acceder al index.html de la web o navegar por ella
+
+![](assets/20251203_190245_image.png)
+
+
+Pero si la pide al acceder al contact.html
+
+![](assets/20251203_190307_image.png)
