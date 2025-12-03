@@ -1,7 +1,7 @@
 # Documentación Práctica Nginx II Autenticación Con Docker
 
 **Autor:** Jorge Garre Corrales  
-**Proyecto:** Despliegue de servidor web Nginx usando Docker y Docker Compose
+**Proyecto:** Configurar servidor Nginx con autenticación con contenedores Docker
 
 ---
 
