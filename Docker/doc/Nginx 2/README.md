@@ -9,6 +9,7 @@ Lo primero que he hecho ha sido descargar las utilidades de OpenSSL que vienen e
 
 ![](assets/20251202_142732_image.png)
 
+
 ### 1.2 Crear usuarios y contraseñas para el acceso web
 
 Al crear la clave me ha devuelto un warning por que el docker que se ha ejecutado es para arquitectura amd64 y mi ordenenador es arm64, pero ha creado la clave correctamente
@@ -34,11 +35,10 @@ He levantado el contenedor docker y he comprobado que al acceder al servidor me 
 
 ![](assets/20251202_162548_image.png)
 
+
 Y este es el mensaje que me muestra al no autenticarme
 
-
 ![](assets/20251202_162630_image.png)
-
 
 
 ## 2. Tareas
@@ -54,7 +54,8 @@ En la primera linea podemos ver que dice que el user "jorg" no lo ha encontrado,
 
 He hecho este cambio en mi fichero nginx.conf para que solo pida la autenticación en la página contact.html
 
-![](assets/20251203_190049_image.png)
+
+![](assets/20251203_190723_image.png)
 
 
 Despues he ejecutado el comando $ docker compose restart
@@ -67,3 +68,16 @@ Y he probado como no pide autenticación al acceder al index.html de la web o na
 Pero si la pide al acceder al contact.html
 
 ![](assets/20251203_190307_image.png)
+
+
+### 2.3 Combinar autenticación con clave y IP
+
+Para autenticar mediante credenciales y IP he añadido la siguiente configuración al fichero nginx.conf
+
+![](assets/20251203_193302_image.png)
+
+
+
+## 3
+
+### 3.2
