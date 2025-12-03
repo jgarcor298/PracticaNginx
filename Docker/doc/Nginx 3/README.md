@@ -3,6 +3,19 @@
 **Autor:** Jorge Garre Corrales
 **Proyecto:** Configurar certificado SSL en un servidor Nginx con contenedor Docker
 
+# Índice
+
+1. [Instalar paquetes necesarios](#1-instalar-paquetes-necesarios)  
+   - [Crear usuarios y contraseñas para el acceso web](#12-crear-usuarios-y-contraseñas-para-el-acceso-web)  
+   - [Configurar nginx.conf](#13-configurar-nginxconf)  
+   - [Probar la nueva configuración](#14-probar-la-nueva-configuración)
+
+2. [Tareas](#2-tareas)  
+   - [T.1](#21-t1)  
+   - [T.2](#22-t2)  
+   - [Combinar autenticación con clave e IP](#23-combinar-autenticación-con-clave-e-ip)
+
+3. [Bloquear acceso a mi máquina anfitriona](#32-bloquear-acceso-a-mi-máquina-anfitriona)
 
 ### Prerequisitos
 
